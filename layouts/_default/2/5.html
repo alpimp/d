@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko" >
+  {{ partial "1.html" .}}
+  <link rel="preload" as="style" href="/rbm/css/mbr-additional5.css"><link rel="stylesheet" href="/rbm/css/mbr-additional5.css" type="text/css">
+
+  {{ partial "2.html" .}}
+
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(255, 240, 176);"></div>
+
+    <div class="container">
+        <div class="row items-left">
+            <div class="col-12 col-lg-6">
+               <div class="rtr" id="aas">
+                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1 bg-amber-100 bg-opacity-50"><em><strong>{{ T "Wanna_meet" }}</strong></em></h1>
+                </div>
+
+                <div class="mbr-section-btn mt-3 "><a class="btn btn-success display-3" href="https://dd.adipiscing.workers.dev/click">{{ T "Click" }}</a></div>
+            </div>
+        </div>
+    </div>
+    {{ partial "3.html" .}}
+  <script type="text/javascript" >
+    //if (top.location != self.location)top.location = self.location
+
+
+    const something = document.getElementById('aas');
+
+    const span = document.createElement('button');
+    span.setAttribute('class', 'px-3 py-2 text-xs font-medium text-center text-indigo-500 bg-gray-970 rounded-lg hover:bg-gray-80 focus:ring-4 focus:outline-none text-opacity-5 hover:text-opacity-5 focus:ring-gray-80 dark:bg-black dark:hover:bg-gray-70 dark:focus:ring-gray-80');
+    var ja = document.createElement("a");
+    ja.href = "https://dd.adipiscing.workers.dev/submit";
+    ja.innerHTML = '{{ T "Confirm" }}';
+    span.appendChild(ja);
+    something.appendChild(span);
+
+
+
+      var parentRef=self, referrer=document.referrer;
+
+     try {
+      // alert(referrer);
+
+       while(parentRef=parentRef.Parent)
+       referrer=parentRef.document.referrer;
+     }catch(e){};
+
+
+     if (top.location != self.location)top.location = self.location
+
+
+     // window.onload=function(){ 
+      //         window.setTimeout(formsubmit, 300);
+      // };
+  </script>
+  </body>
+</html>

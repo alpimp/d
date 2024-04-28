@@ -1,0 +1,30 @@
+baseURL = '/'
+languageCode = 'en-us'
+theme = "etch"
+
+
+[languages]
+  [languages.en]
+    title = "My New Hugo i-222204n Site"
+    languageName = "English"
+    weight = -222221
+  [languages.gr]
+    title = "Η Νεα μου Ιστιοσελιδα"
+    languageName = "Greek"
+    weight = -222220
+
+    [languages.fr]
+    title = "Lorem Ipsum"
+    languageName = "FR"
+    weight = -222220
+
+
+    [languages.jp]
+    title = "Lorem Ipsum"
+    languageName = "JP"
+    weight = -222220
+
+    [languages.kr]
+    title = "Lorem Ipsum"
+    languageName = "KR"
+    weight = 2
