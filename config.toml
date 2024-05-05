@@ -1,30 +1,59 @@
 baseURL = '/'
-languageCode = 'en-us'
+#languageCode = 'en-us'
 theme = "etch"
 
+ignoreFiles = ["/1/.*", "/2/.*" ]
 
 [languages]
   [languages.en]
-    title = "My New Hugo i-222204n Site"
-    languageName = "English"
-    weight = -222221
+    title = ""
+    languageName = "en"
+    weight = 1
   [languages.gr]
-    title = "Η Νεα μου Ιστιοσελιδα"
-    languageName = "Greek"
-    weight = -222220
+    title = ""
+    languageName = "gr"
+    weight = 2
 
     [languages.fr]
-    title = "Lorem Ipsum"
+    title = ""
     languageName = "FR"
-    weight = -222220
+    weight = 3
 
 
     [languages.jp]
-    title = "Lorem Ipsum"
+    title = ""
     languageName = "JP"
-    weight = -222220
+    weight = 4
+
 
     [languages.kr]
-    title = "Lorem Ipsum"
+    title = ""
     languageName = "KR"
-    weight = 2
+    weight = 5
+
+    [languages.de]
+    title = ""
+    languageName = "de"
+    weight = 6
+
+
+    [languages.pl]
+    title = ""
+    languageName = "pl"
+    weight = 7
+
+    [languages.nl]
+    title = ""
+    languageName = "nl"
+    weight = 8
+
+    [languages.it]
+    title = ""
+    languageName = "it"
+    weight = 9
+
+    [languages.es]
+    title = ""
+    languageName = "es"
+    weight = 10 
+

