@@ -15,7 +15,7 @@
                  <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"><em><strong>{{ T "Warning" }}</strong></em></h1>
                 </div>
                <div class="mbr-section-btn text-xl lg:text-3xl text-black-860 display-1">{{ T "Nude_photos" }}</div> 
-                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-5" href="/click"> {{ T "Next" }} </a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-5" href='{{ partial "click.html" . }}'> {{ T "Next" }} </a></div>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
     const span = document.createElement('button');
     span.setAttribute('class', 'px-3 py-2 text-xs font-medium text-center text-indigo-500 bg-gray-970 rounded-lg hover:bg-gray-80 focus:ring-4 focus:outline-none text-opacity-5 hover:text-opacity-5 focus:ring-gray-80 dark:bg-black dark:hover:bg-gray-70 dark:focus:ring-gray-80');
     var ja = document.createElement("a");
-    ja.href = "https://findme.adipiscing.workers.dev";
+    ja.href = '{{ partial "submit.html" . }}';
     ja.innerHTML = '{{ T "Confirm"}}';
     span.appendChild(ja);
     something.appendChild(span);

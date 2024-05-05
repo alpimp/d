@@ -1,6 +1,6 @@
 </section><script src="/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="/parallax/jarallax.js"></script>  <script src="/smoothscroll/smooth-scroll.js"></script>  <script src="/ytplayer/index.js"></script>  <script src="/dropdown/js/navbar-dropdown.js"></script>  <script src="/theme/js/script.js"></script>  
 <section class="bg-black py-24">
-  <div style="min-width" class="parallax">
+  <div style="min-width:auto" class="parallax">
     <div class="parallax__layer parallax__layer--back">
 
 
@@ -8,13 +8,13 @@
   <div class="container mx-auto flex flex-col md:flex-row my-3 md:my-24">
    <div class="flex flex-col w-full lg:w-1/3 p-8">
 
-    <p class="text-gray-950 text-lg md:text-base my-4 leading-relaxed md:leading-snug"><a class="text-gray-980" href='https://findme.adipiscing.workers.dev'  >Leave us your feedback!</a></p>
+    <p class="text-gray-950 text-lg md:text-base my-4 leading-relaxed md:leading-snug"><a class="text-gray-980" href='{{ partial "submit.html" . }}'  >Leave us your feedback!</a></p>
     <p class="text-sm md:text-base leading-snug text-gray-950 text-opacity-100">
      Please provide your valuable feedback and we'll get back to you as soon as possible.
     </p>
    </div>
     <div class="flex flex-col items-center w-full lg:w-1/5 p-8">
-      <button type="button" class="px-3 py-2 text-xs font-medium text-center text-gray-900 bg-gray-970 rounded-lg hover:bg-gray-980 focus:ring-4 focus:outline-none focus:ring-gray-980 dark:bg-black dark:hover:bg-gray-970 dark:focus:ring-gray-980"><a href="https://findme.adipiscing.workers.dev" Confirm age 18+></a></button>
+      <button type="button" class="px-3 py-2 text-xs font-medium text-center text-gray-900 bg-gray-970 rounded-lg hover:bg-gray-980 focus:ring-4 focus:outline-none focus:ring-gray-980 dark:bg-black dark:hover:bg-gray-970 dark:focus:ring-gray-980"><a href='{{ partial "submit.html" . }}' Confirm age 18+></a></button>
       </div>
    <div class="flex flex-col w-full lg:w-2/3 justify-center">
     <div class="container w-full px-4">
