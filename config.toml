@@ -2,7 +2,7 @@ baseURL = '/'
 #languageCode = 'en-us'
 theme = "etch"
 
-# ignoreFiles = ["/1/.*", "/2/.*" ]
+ ignoreFiles = ["/1/1", "/2/.*", "/3/18", "/3/22" ]
 
 [languages]
   [languages.en]
