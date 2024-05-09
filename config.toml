@@ -57,3 +57,9 @@ theme = "etch"
     languageName = "es"
     weight = 10 
 
+[languages.se]
+    title = ""
+    languageName = "se"
+    weight = 11 
+
+
